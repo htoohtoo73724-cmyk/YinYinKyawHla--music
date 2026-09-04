@@ -1,0 +1,326 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    
+    }lign: center;
+    font-size: 45px;
+    margin-top: 100px;
+    color: #e00000;
+}p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #cccccc;
+}p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #cccccc;
+}.genres {
+    color: #e00000;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+      button {
+    display: block;
+    margin: 30px auto;
+    padding: 15px 35px;
+    background-color: #e00000;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+      }
+      section {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid #e00000;
+    border-bottom: 1px solid #e00000;
+}
+
+h2 {
+    color: #e00000;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+      .featured {
+    margin-top: 50px;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #111111;
+}
+
+.featured h3 {
+    color: white;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.featured p {
+    color: #aaaaaa;
+}
+      audio {
+    display: block;
+    width: 90%;
+    max-width: 600px;
+    margin: 25px auto;
+      }
+      .music-library {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 30px 20px;
+}
+
+.song {
+    background-color: #111111;
+    padding: 25px;
+    margin-top: 25px;
+    border-left: 4px solid #e00000;
+}
+
+.song h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+      .song {
+    background-color: #111111;
+    padding: 25px;
+    margin: 25px 0;
+    border-left: 4px solid #e00000;
+    border-radius: 5px;
+}
+
+.song h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.song audio {
+    width: 100%;
+}
+      .hero {
+    text-align: center;
+    padding: 80px 20px;
+    margin-bottom: 50px;
+    background-color: #111111;
+    border-bottom: 2px solid #e00000;
+}
+
+.hero p:first-child {
+    color: #e00000;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+.hero h2 {
+    color: white;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.hero p:last-child {
+    color: #aaaaaa;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+      .featured {
+    border: 1px solid #e00000;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(224, 0, 0, 0.25);
+}
+
+.featured h2 {
+    color: #e00000;
+    font-size: 30px;
+}
+
+.featured h3 {
+    font-size: 28px;
+}
+      nav {
+    text-align: center;
+    padding: 20px;
+    background-color: #080808;
+    border-bottom: 1px solid #e00000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e00000;
+}
+      .artist-image {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.artist-image img {
+    width: 300px;
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #e00000;
+}
+      .featured {
+    text-align: center;
+    padding: 35px 20px;
+    margin: 40px 0;
+    background-color: #111111;
+    border: 1px solid #e00000;
+    border-radius: 10px;
+}
+
+.featured h2 {
+    color: #e00000;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.featured h3 {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.featured p {
+    color: #aaaaaa;
+    font-size: 16px;
+}
+      footer {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 60px;
+    background-color: #080808;
+    border-top: 2px solid #e00000;
+}
+
+footer h3 {
+    color: #e00000;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    color: #888888;
+    font-size: 14px;
+    margin: 8px 0;
+}
+      * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+audio {
+    max-width: 100%;
+}
+
+@media (max-width: 600px) {
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    .hero {
+        padding: 60px 15px;
+    }
+
+    .featured h3 {
+        font-size: 23px;
+    }
+
+    .song {
+        padding: 18px;
+    }
+
+    nav a {
+        margin: 0 10px;
+    }
+}
+      nav a {
+    display: inline-block;
+      }
+      nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #e00000;
+}
+      .song {
+    background-color: #111111;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 4px solid #e00000;
+    border-radius: 8px;
+}
+
+.song h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.song audio {
+    width: 100%;
+}
+      .contact {
+    text-align: center;
+    padding: 40px 20px;
+    margin: 50px 0;
+    background-color: #111111;
+    border: 1px solid #e00000;
+    border-radius: 10px;
+}
+
+.contact h2 {
+    color: #e00000;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    color: #aaaaaa;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #e00000;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: white;
+    color: #e00000;
+}
